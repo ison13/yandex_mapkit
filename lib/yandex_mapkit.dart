@@ -58,6 +58,7 @@ part 'src/types/search/search_item_business_metadata.dart';
 part 'src/types/search/search_item_toponym_metadata.dart';
 part 'src/types/search/search_options.dart';
 part 'src/types/search/search_session.dart';
+part 'src/types/search/object_category.dart';
 part 'src/types/suggest/suggest_item.dart';
 part 'src/types/suggest/suggest_options.dart';
 part 'src/types/suggest/suggest_session.dart';

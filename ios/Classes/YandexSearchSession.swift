@@ -142,8 +142,13 @@ public class YandexSearchSession: NSObject {
     }
 
     return [
+      "oid": meta!.oid,
       "name": meta!.name,
       "shortName": meta!.shortName,
+      "workingHours": meta!.workingHours?.text,
+      "phones": [],
+      "categories": [],
+      "links": [],
       "address": [
         "formattedAddress": meta!.address.formattedAddress,
         "addressComponents": getAddressComponents(address: meta!.address)
