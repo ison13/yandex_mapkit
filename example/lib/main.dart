@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yandex_mapkit/yandex_mapkit.dart';
+import 'package:yandex_mapkit_community/yandex_mapkit_community.dart';
 
 import 'package:yandex_mapkit_example/examples/widgets/map_page.dart';
 import 'package:yandex_mapkit_example/examples/circle_map_object_page.dart';
