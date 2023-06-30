@@ -1,4 +1,7 @@
 ## 3.2.2
+* Business metadata has been augmented in the iOS version.
+
+## 3.2.2
 * Fixed the iOS version of the library after renaming the package
 
 ## 3.2.1
