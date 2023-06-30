@@ -5,7 +5,7 @@ class ObjectCategory extends Equatable {
   final String name;
   final List<String> tags;
 
-  ObjectCategory._(this.name, [this.tags = const []]);
+  const ObjectCategory._(this.name, [this.tags = const []]);
 
   factory ObjectCategory._fromJson(Map<dynamic, dynamic> json) {
     return ObjectCategory._(
