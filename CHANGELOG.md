@@ -1,3 +1,6 @@
+## 3.2.2
+* Fixed the iOS version of the library after renaming the package
+
 ## 3.2.1
 
 * Fixed the serialization of userPosition in YandexSearch and YandexSuggestion
