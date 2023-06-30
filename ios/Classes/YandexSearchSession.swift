@@ -146,13 +146,18 @@ public class YandexSearchSession: NSObject {
       "name": meta!.name,
       "shortName": meta!.shortName,
       "workingHours": meta!.workingHours?.text,
-      "phones": [],
-      "categories": [],
-      "links": [],
+      "phones": meta!.phones.map { $0.formattedNumber },
+      "categories": meta!.categories.map {
+          [
+              "name": $0.name,
+              "tags": $0.tags,
+          ] as [String : Any]
+      },
+      "links": meta!.links.map { $0.link.href },
       "address": [
         "formattedAddress": meta!.address.formattedAddress,
         "addressComponents": getAddressComponents(address: meta!.address)
-      ]
+      ] as [String : Any]
     ]
   }
 
