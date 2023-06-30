@@ -1,3 +1,7 @@
+## 3.3.0
+* Update and lock YandexMapkit version to 4.3.2-full for iOS and Android
+* Fix platform channel memory leak [#308, @r-i-c-o]
+
 ## 3.2.2
 * Business metadata has been augmented in the iOS version.
 
