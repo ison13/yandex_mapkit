@@ -535,8 +535,6 @@ public class YandexMapController implements
   private void applyMapOptions(Map<String, Object> params) {
     com.yandex.mapkit.map.Map map = mapView.getMap();
 
-    map.setIndoorEnabled((Boolean) true);
-
     if (params.get("indoorEnabled") != null) {
       map.setIndoorEnabled((Boolean) params.get("indoorEnabled"));
     }
