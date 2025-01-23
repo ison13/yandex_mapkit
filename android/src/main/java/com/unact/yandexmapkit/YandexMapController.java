@@ -535,7 +535,7 @@ public class YandexMapController implements
   private void applyMapOptions(Map<String, Object> params) {
     com.yandex.mapkit.map.Map map = mapView.getMap();
 
-    map.isIndoorEnabled(true);
+    map.setIndoorEnabled(true);
 
     if (params.get("tiltGesturesEnabled") != null) {
       map.setTiltGesturesEnabled((Boolean) params.get("tiltGesturesEnabled"));
