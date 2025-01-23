@@ -537,6 +537,10 @@ public class YandexMapController implements
 
     map.setIndoorEnabled((Boolean) true);
 
+    if (params.get("indoorEnabled") != null) {
+      map.setIndoorEnabled((Boolean) params.get("indoorEnabled"));
+    }
+
     if (params.get("tiltGesturesEnabled") != null) {
       map.setTiltGesturesEnabled((Boolean) params.get("tiltGesturesEnabled"));
     }
